@@ -6,9 +6,10 @@ def calculadora(num1, num2, operacao):
     elif operacao == 3:
         return num1 * num2
     elif operacao == 4:
-        if num2 != 0:  # Para evitar divisão por zero
+        if num2 != 0:  # Verifica para evitar divisão por zero
             return num1 / num2
         else:
-            return "Erro: Divisão por zero"
+            return "Erro: divisão por zero"
     else:
-        return 0  # Operação inválida
+        return 0
+
