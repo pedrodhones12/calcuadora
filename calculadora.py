@@ -11,5 +11,4 @@ def calculadora(num1, num2, operacao):
         else:
             return "Erro: divisão por zero"
     else:
-        return 0
-
+        return "Erro: operação inválida"
